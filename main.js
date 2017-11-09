@@ -20,7 +20,7 @@ function closeSize(element){
 		element.className +=" wide";
 	}
 }
-// let X = document.querySelector("#close");
-// X.addEventListener("click",function(){
-// 		closeSize(box1);
-// })
+let X = document.querySelector("#close");
+X.addEventListener("click",function(){
+		closeSize(box1);
+})
