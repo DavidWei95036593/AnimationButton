@@ -1,0 +1,14 @@
+div{
+	height:100px;
+	width:100px;
+}
+div.box1{
+	background-color: red;
+}
+.wide{
+	width:300px;
+	height:300px;
+}
+div.box2{
+	background-color: blue;
+}
