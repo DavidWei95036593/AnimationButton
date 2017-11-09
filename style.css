@@ -3,7 +3,9 @@ div{
 	width:100px;
 }
 div.box1{
+
 	background-color: red;
+	transition: width 2s, height 2s;
 }
 .wide{
 	width:300px;
@@ -11,4 +13,18 @@ div.box1{
 }
 div.box2{
 	background-color: blue;
+}
+
+
+#close{
+
+	color:white;
+	width:30px;
+	height:30px;
+	/*position: absolute;*/
+	
+	background-color: black;
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }

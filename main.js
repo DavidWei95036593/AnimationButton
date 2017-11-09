@@ -7,8 +7,8 @@ function changeSize(element){
 		element.className +=" wide";
 	}
 }
-
+let button1 = document.querySelector(".button1");
 let box1 = document.querySelector(".box1");
-box1.addEventListener("click",function(){
+button1.addEventListener("click",function(){
 	changeSize(box1);
 })
