@@ -1,26 +1,21 @@
 div{
-	height:100px;
-	width:100px;
+	width:0px;
+	height:0px;
 }
 div.box1{
+
 	position: fixed;
 	z-index:0;
 	position: relative;
 	background-color: red;
 	transition: width 2s, height 2s;
-	/*display:grid;*/
-/*	grid-template-columns:1fr 1fr 1fr;
-	grid-template-rows:1fr 1fr 1fr;*/
+
 }
 .wide{
 	width:300px;
 	height:300px;
 }
-div.box2{
-	/*position: absolute;*/
-	top:29px;
-	background-color: blue;
-}
+
 .inner{
 	display:flex;
 	align-items:center;
@@ -31,10 +26,6 @@ div.box2{
 	border:solid;
 	width:30px;
 	height:30px;
-	/*grid-column-start:3;
-	grid-column-end:4;
-	grid-template-columns:1fr;
-	gird-template-rows:1fr;*/
 }
 
 
@@ -43,9 +34,6 @@ div.box2{
 	color:white;
 	width:30px;
 	height:30px;
-	/*position: absolute;*/
-/*	left:78px;
-	top:10px;*/
 	background-color: black;
 	align-items:center;
 	justify-content:center;
