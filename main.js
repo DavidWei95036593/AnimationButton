@@ -2,7 +2,6 @@ function changeSize(element){
 	let elementClass = element.className;
 	if(elementClass.match("wide")){
 		element.className = elementClass.replace(" wide","");
-
 	}else{
 		element.className +=" wide";
 	}
@@ -21,7 +20,7 @@ function closeSize(element){
 		element.className +=" wide";
 	}
 }
-let X = document.querySelector("#close");
-X.addEventListener("click",function(){
-		closeSize(box1);
-})
+// let X = document.querySelector("#close");
+// X.addEventListener("click",function(){
+// 		closeSize(box1);
+// })

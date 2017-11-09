@@ -6,7 +6,8 @@ div.box1{
 	background-color: red;
 	transition: width 2s, height 2s;
 	display:grid;
-	grid-template-columns:3fr;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr;
 }
 .wide{
 	width:300px;
@@ -17,17 +18,23 @@ div.box2{
 	top:29px;
 	background-color: blue;
 }
-
+.inner{
+	border:solid;
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-template-columns:1fr;
+	gird-template-rows:1fr;
+}
 
 
 #close{
 	color:white;
 	width:30px;
 	height:30px;
-	position: absolute;
-	left:78px;
-	top:13px;
-	background-color: black;
+	/*position: absolute;*/
+/*	left:78px;
+	top:10px;*/
+	background-color: yellow;
 	display:flex;
 	align-items:center;
 	justify-content:center;
