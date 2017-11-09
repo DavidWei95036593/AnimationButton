@@ -3,26 +3,30 @@ div{
 	width:100px;
 }
 div.box1{
-
 	background-color: red;
 	transition: width 2s, height 2s;
+	display:grid;
+	grid-template-columns:3fr;
 }
 .wide{
 	width:300px;
 	height:300px;
 }
 div.box2{
+	/*position: absolute;*/
+	top:29px;
 	background-color: blue;
 }
 
 
-#close{
 
+#close{
 	color:white;
 	width:30px;
 	height:30px;
-	/*position: absolute;*/
-	
+	position: absolute;
+	left:78px;
+	top:13px;
 	background-color: black;
 	display:flex;
 	align-items:center;
