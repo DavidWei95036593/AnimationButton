@@ -22,7 +22,7 @@ div.box1{
 	justify-content:center;
 	position: absolute;
 	top: 0px;
-	right: 0px;
+	right: 10px;
 	border:solid;
 	width:30px;
 	height:30px;
@@ -37,5 +37,33 @@ div.box1{
 	background-color: black;
 	align-items:center;
 	justify-content:center;
+	
+}
+#close:hover{
+	color:grey;
+}
 
+.menu{
+	/*border:solid;*/
+	/*position: relative;*/
+	display:gird;
+	gird-template-rows:1fr 1fr 1fr 1fr;
+}
+.menuitems{
+	border:solid;
+/*	background-color: white	*/
+}
+
+.yellow:hover{
+
+	color:yellow;
+}
+.pink:hover{
+	color:pink;
+}
+.blue:hover{
+	color:blue;
+}
+.green:hover{
+	color:green;
 }
