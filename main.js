@@ -1,7 +1,9 @@
 function changeSize(element){
 	let elementClass = element.className;
 	if(elementClass.match("wide")){
+	
 		element.className = elementClass.replace(" wide","");
+	
 	}else{
 		element.className +=" wide";
 	}
@@ -20,18 +22,24 @@ function closeSize(element){
 
 function ajustinner(element){
 	let inner = element.className;
+
 	if(inner.match(" ajust")){
-		element.className == inner.replace(" ajust","");
+
+		element.className == inner.replace(" ajust"," ");
+
 	}else{
-		element.className +=" ajust"
+		element.className +=" ajust";
+	
 	}
 }
 
 
 //diver code
+let menu = document.querySelector(".inner")
 let X = document.querySelector("#close");
 X.addEventListener("click",function(){
 		closeSize(box1);
+		ajustinner(menu);
 })
 
 
@@ -39,4 +47,5 @@ let button1 = document.querySelector(".button1");
 let box1 = document.querySelector(".box1");
 button1.addEventListener("click",function(){
 	changeSize(box1);
+	ajustinner(menu);
 })

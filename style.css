@@ -23,11 +23,24 @@ div.box1{
 	position: absolute;
 	top: 0px;
 	right: 10px;
-	border:solid;
+	/*border:solid;*/
 	width:30px;
 	height:30px;
 }
-
+.ajust{
+	right:0px;
+}
+.s{
+	/*display:flex;*/
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	top: 0px;
+	right: 250px;
+	/*border:solid;*/
+	width:30px;
+	height:30px;
+}
 
 #close{
 	display:flex;
@@ -43,14 +56,9 @@ div.box1{
 	color:grey;
 }
 
-.menu{
-	/*border:solid;*/
-	/*position: relative;*/
-	display:gird;
-	gird-template-rows:1fr 1fr 1fr 1fr;
-}
+
 .menuitems{
-	border:solid;
+	/*border:solid;*/
 /*	background-color: white	*/
 }
 
