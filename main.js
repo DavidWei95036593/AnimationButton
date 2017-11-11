@@ -2,7 +2,7 @@ function changeSize(element){
 	let elementClass = element.className;
 	if(elementClass.match("wide")){
 	
-		element.className = elementClass.replace(" wide","");
+		// element.className = elementClass.replace(" wide","");
 	
 	}else{
 		element.className +=" wide";
@@ -16,7 +16,7 @@ function closeSize(element){
 		element.className = X.replace(" wide","");
 
 	}else{
-		element.className +=" wide";
+		// element.className +=" wide";
 	}
 }
 
